@@ -13,11 +13,11 @@ Our tic tac toe team project that we developed using React
 
 ### Deployment Link
 
-https://vercel.com/yusufavcilar/react-tic-tac-toe
+https://vercel.com/yusufavcilar/react-tic-tac-toe-team-project
 
 ### Setup
 
-* Clone project to your computer git clone `https://github.com/yusufavcilar/react-tic-tac-toe`
+* Clone project to your computer git clone `https://github.com/yusufavcilar/react-tic-tac-toe-team-project`
 * Install dependencies `npm install`
 * Starting local server `npm run start`
   
