@@ -31,7 +31,7 @@ https://vercel.com/yusufavcilar/react-tic-tac-toe-team-project
 
 ### Repository
 
-https://github.com/yusufavcilar/react-tic-tac-toe
+https://github.com/yusufavcilar/react-tic-tac-toe-team-project
 
 ### Licence
 
