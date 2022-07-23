@@ -4,6 +4,7 @@ import { useContext, useEffect } from "react";
 import Container from "./components/Container";
 import Buttons from "./components/Buttons";
 import findRandomEmptyButton from "./utils/findRandomEmptyButton";
+import createInitialState from "./utils/createInitialState";
 
 function App() {
   const {
@@ -300,10 +301,25 @@ function App() {
     }
   }, [buttonState, buttons, lastMove, setButtonState, turn]);
 
+  const clickRestart = () => {
+    setButtons(createInitialState().buttons);
+    setButtonState(createInitialState().buttonState);
+    setGameOver(false);
+    setLastMove({ row: null, col: null });
+    setTurn("player");
+  };
+
   return (
     <Container>
       <Buttons />
-      <button className="restart-btn">Restart</button>
+      <button
+        onClick={() => {
+          clickRestart();
+        }}
+        className="restart-btn"
+      >
+        Restart
+      </button>
     </Container>
   );
 }

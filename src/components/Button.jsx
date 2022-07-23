@@ -26,6 +26,9 @@ const Button = ({ row, col }) => {
     ) {
       setHighlight(true);
     }
+    else {
+      setHighlight(false);
+    }
   }, [buttonState, col, row]);
 
   const handleClick = () => {
